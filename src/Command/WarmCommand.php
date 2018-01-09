@@ -5,7 +5,7 @@ namespace Snowdog\DevTest\Command;
 use Snowdog\DevTest\Model\PageManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 use Symfony\Component\Console\Output\OutputInterface;
-require_once('../lib/CacheWarm.php');
+require_once('./lib/CacheWarm.php');
 
 class WarmCommand
 {
